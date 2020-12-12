@@ -1,7 +1,5 @@
 package com.stepdefinition.crm;
 
-import org.apache.poi.util.SystemOutLogger;
-
 import com.baseclasses.Library;
 import com.freecrm.login.CrmLoginPage;
 import com.reusablefunctions.SeleniumUtilities;
@@ -30,9 +28,36 @@ public class CrmLoginsteps extends Library{
 		SeleniumUtilities sel= new SeleniumUtilities(driver);
 	     sel.getTitle();
 	    
-
+	}
+	@Given("browser is launched, navigated to the url and login to the application")
+	public void browser_is_launched_navigated_to_the_url_and_login_to_the_application() {
+		
 	    
 	}
+
+	@Then("verify the username")
+	public void verify_the_username() {
+      
+	   
+	}
+
+	@Then("take a screenshot")
+	public void take_a_screenshot() {
+	   
+	}
+
+	@Then("logout from the application")
+	public void logout_from_the_application() {
+	    
+	}
+
+	@Then("close the browser")
+	public void close_the_browser() {
+	    
+	}
+
+
+
 
 	
 }
